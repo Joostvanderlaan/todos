@@ -1,0 +1,73 @@
+[ 2014-12-17 23:33:55.6398 29262/7f4973f3c780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'joost', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNGtzbGFtL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'joost', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'joost', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.14kslam/locations.ini', 'passenger_version' => '4.0.55', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.55', 'web_server_pid' => '29261', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-12-17 23:33:55.6462 29265/7f65b167f780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.29261/generation-0/request
+[ 2014-12-17 23:33:55.6587 29270/7f8b4540f7c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.29261/generation-0/logging
+[ 2014-12-17 23:33:55.6591 29262/7f4973f3c780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 29296 stdout: 
+App 29296 stdout: [[[[[ ~/todos ]]]]]
+App 29296 stdout: 
+App 29296 stdout: => Started proxy.
+App 29296 stdout: => Started MongoDB.
+App 29296 stdout: => Started your app.
+App 29296 stdout: 
+App 29296 stdout: => App running at: http://localhost:1090/
+App 29296 stderr: D, [2014-12-17T23:35:43.483977 #29296] DEBUG -- : Aborting long-running connections
+[ 2014-12-17 23:35:48.0110 29265/7f65b167d700 Pool2/Pool.h:785 ]: Process (pid=29296, group=/home/joost/todos#default) no longer exists! Detaching it from the pool.
+[ 2014-12-17 23:36:57.7809 29530/7f857408b780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'joost', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5ua2ltc3gvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'joost', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'joost', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.nkimsx/locations.ini', 'passenger_version' => '4.0.55', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.55', 'web_server_pid' => '29529', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-12-17 23:36:57.7881 29533/7f2b2913d780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.29529/generation-0/request
+[ 2014-12-17 23:36:57.7947 29539/7fe7979f27c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.29529/generation-0/logging
+[ 2014-12-17 23:36:57.7950 29530/7f857408b780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 29567 stdout: 
+App 29567 stdout: [[[[[ ~/todos ]]]]]
+App 29567 stdout: 
+App 29567 stdout: => Started proxy.
+App 29567 stdout: => Started MongoDB.
+App 29567 stdout: => Started your app.
+App 29567 stdout: 
+App 29567 stdout: => App running at: http://localhost:9775/
+App 29567 stderr: D, [2014-12-17T23:40:43.486202 #29567] DEBUG -- : Aborting long-running connections
+[ 2014-12-17 23:40:45.0246 29533/7f2b2913b700 Pool2/Pool.h:785 ]: Process (pid=29567, group=/home/joost/todos#default) no longer exists! Detaching it from the pool.
+[ 2014-12-17 23:44:05.6611 29914/7f299de91780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'joost', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdHQ5Yjl2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'joost', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'joost', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1tt9b9v/locations.ini', 'passenger_version' => '4.0.55', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.55', 'web_server_pid' => '29913', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-12-17 23:44:05.6667 29917/7fbca5550780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.29913/generation-0/request
+[ 2014-12-17 23:44:05.6736 29922/7f0b4e3717c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.29913/generation-0/logging
+[ 2014-12-17 23:44:05.6739 29914/7f299de91780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 29951 stdout: 
+App 29951 stdout: [[[[[ ~/todos ]]]]]
+App 29951 stdout: 
+App 29951 stdout: => Started proxy.
+App 29951 stdout: => Started MongoDB.
+App 29951 stdout: => Started your app.
+App 29951 stdout: 
+App 29951 stdout: => App running at: http://localhost:4640/
+App 29951 stderr: D, [2014-12-17T23:44:37.980454 #29951] DEBUG -- : Aborting long-running connections
+[ 2014-12-17 23:44:42.7721 30117/7f264f572780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'joost', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lZDZ1NmwvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'joost', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'joost', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.ed6u6l/locations.ini', 'passenger_version' => '4.0.55', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.55', 'web_server_pid' => '30116', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-12-17 23:44:42.7799 30120/7fbb75a89780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.30116/generation-0/request
+[ 2014-12-17 23:44:42.7889 30125/7f6642cbb7c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.30116/generation-0/logging
+[ 2014-12-17 23:44:42.7905 30117/7f264f572780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 30168 stdout: 
+App 30168 stdout: [[[[[ ~/todos ]]]]]
+App 30168 stdout: 
+App 30168 stdout: => Started proxy.
+App 30168 stdout: => Started MongoDB.
+App 30168 stdout: => Started your app.
+App 30168 stdout: 
+App 30168 stdout: => App running at: http://localhost:9902/
+App 30168 stderr: D, [2014-12-17T23:47:34.148047 #30168] DEBUG -- : Aborting long-running connections
+[ 2014-12-17 23:47:35.0109 30120/7fbb75a87700 Pool2/Pool.h:785 ]: Process (pid=30168, group=/home/joost/todos#default) no longer exists! Detaching it from the pool.
+[ 2014-12-17 23:47:38.8099 30408/7f77b5eaf780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'joost', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbHBmMW41L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'joost', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'joost', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1lpf1n5/locations.ini', 'passenger_version' => '4.0.55', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.55', 'web_server_pid' => '30407', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-12-17 23:47:38.8152 30411/7f3100c1c780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.30407/generation-0/request
+[ 2014-12-17 23:47:38.8225 30417/7f45a33d07c0 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.30407/generation-0/logging
+[ 2014-12-17 23:47:38.8229 30408/7f77b5eaf780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 30454 stdout: 
+App 30454 stdout: [[[[[ ~/todos ]]]]]
+App 30454 stdout: 
+App 30454 stdout: => Started proxy.
+App 30454 stdout: => Started MongoDB.
+App 30454 stdout: => Started your app.
+App 30454 stdout: 
+App 30454 stdout: => App running at: http://localhost:10167/
+2014/12/18 11:55:43 [error] 30427#0: *5257 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /browser-sync/socket.io/?EIO=3&transport=polling&t=1418856514021-114417 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.30407/generation-0/request", host: "localhost:3000", referrer: "http://localhost:3000/tour/"
+2014/12/23 16:50:43 [error] 30427#0: *819614 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /browser-sync/socket.io/?EIO=3&transport=polling&t=1418905337673-920579 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.30407/generation-0/request", host: "localhost:3000", referrer: "http://localhost:3000/tour/"
+2014/12/23 16:50:43 [error] 30427#0: *819620 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /browser-sync/socket.io/?EIO=3&transport=polling&t=1418905337680-920580 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.30407/generation-0/request", host: "localhost:3000", referrer: "http://localhost:3000/tour/"
+2014/12/23 16:50:43 [error] 30427#0: *819615 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /browser-sync/socket.io/?EIO=3&transport=polling&t=1418905337685-920581 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.30407/generation-0/request", host: "localhost:3000", referrer: "http://localhost:3000/tour/"
+App 30454 stderr: D, [2014-12-23T16:51:09.234000 #30454] DEBUG -- : Aborting long-running connections
+[ 2014-12-23 16:51:11.0397 30411/7f3100c1a700 Pool2/Pool.h:785 ]: Process (pid=30454, group=/home/joost/todos#default) no longer exists! Detaching it from the pool.
