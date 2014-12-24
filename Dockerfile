@@ -39,6 +39,7 @@ RUN npm install fibers@1.0.1
 RUN npm install underscore
 RUN npm install source-map-support
 RUN npm install semver
+RUN npm install bson
 
 # ...put your own build instructions here...
 
