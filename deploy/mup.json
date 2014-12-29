@@ -37,7 +37,7 @@
 
   // Configure environment
   "env": {
-    "PORT": 30490, // 30490,
+    "PORT": 8080, // 30490,
     "ROOT_URL": "http://muptodos.joostvanderlaan.nl/",
     "MONGO_URL": "mongodb://todos:todos2014@cockney.0.mongolayer.com:10134,cockney.1.mongolayer.com:10134/todos",
     "MONGO_OPLOG_URL": "mongodb://todos:todos2014@cockney.0.mongolayer.com:10134,cockney.1.mongolayer.com:10134/local?authSource=todos",
